@@ -9,7 +9,6 @@ on:
 # Hint: scanners need to (a) read code, (b) upload SARIF to Security tab,
 #       (c) comment on PRs/issues, (d) request OIDC tokens.
 # Docs: https://docs.github.com/en/actions/using-jobs/assigning-permissions-to-jobs
-#
 permissions:
   contents: read
   security-events: write  # required to upload SARIF to GitHub Security tab
